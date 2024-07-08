@@ -24,6 +24,66 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link.active {
+            color: #f3e5e6;
+        }
+        .facts .facts-item i {
+            margin-top: 15px;
+            font-size: 45px;
+            color: #e0e9e0;
+        }
+        .facts {
+            position: relative;
+            width: 100%;
+            min-height: 400px;
+            margin: 45px 0;
+            display: flex;
+            align-items: center;
+            background: #E81C2E;
+        }
+        .price .price-item .price-footer .btn.btn-custom {
+            color: #e3d4d5;
+            background: #dc2424d4;
+            box-shadow: inset 0 0 0 0 #E81C2E;
+        }
+        .footer .footer-contact h2, .footer .footer-link h2, .footer .footer-newsletter h2 {
+            margin-bottom: 30px;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: #fffcfc;
+        }
+        .footer .copyright p a {
+            color: #ffffff;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        
+        .footer {
+            position: relative;
+            margin-top: 45px;
+            padding-top: 90px;
+            background: #E81C2E;
+        }
+        .row {
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: center;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+        .red_tint {
+            background-color: #E81C2E !important;
+            color: white !important;
+        }
+        #site_color {
+            background-color: #E81C2E !important;
+            color: white !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -81,15 +141,15 @@
     </div>
     <!-- Top Bar End -->
 
-    <div class="nav-bar">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="nav-bar red_tint">
+        <div class="container red_tint">
+            <nav id="site_color" class="red_tint navbar navbar-expand-lg bg-dark navbar-dark">
                 <a href="#" class="navbar-brand">MENU</a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <button type="button" class="navbar-toggler red_tint" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="collapse navbar-collapse justify-content-between red_tint" id="navbarCollapse">
                     <div class="navbar-nav mr-auto">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="#" class="nav-item nav-link">About</a>
@@ -235,7 +295,7 @@
 
 
     <!-- About Start -->
-    <div class="about">
+    <!-- <div class="about">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -266,7 +326,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- About End -->
 
 
@@ -398,11 +458,11 @@
                 <p>Our Services</p>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <div class="price-item">
                         <div class="price-header">
                             <h3>Logistics Service</h3>
-                            <!-- <h2><span>$</span><strong>25</strong><span>.99</span></h2> -->
+                            
                         </div>
                         <div class="price-body">
                             <ul>
@@ -417,7 +477,7 @@
                             <a class="btn btn-custom" href="">Book Now</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-md-4">
                     <div class="price-item featured-item">
                         <div class="price-header">
